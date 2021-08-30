@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    margin:  0;
+    box-sizing: border-box;
+
+}
+.animate__animated {
+    font-size: 32px;
+    padding: -5px 7px;
+    margin: -9px 9px;
+}
+
+
+.rutu{
+    background-image:  url(backimage.jpg);
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: no-repeat; */
+    /* height: 300px; */
+    /* padding: 0px 0px; */
+    margin: 0px 0px;
+    align-items: center;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    padding: 16px 3px;
+    font-size: 46px;
+    word-spacing: 19px;
+    font-family: 'Salsa', cursive;
+    
+}
+p .first {
+    font-family: 'Courgette', cursive;
+    padding: 10px 4px;
+}
+.content{
+    width: 1300px;
+    margin: -17px 149px;
+    padding: 12px 118px;
+    font-family: 'Courgette', cursive;
+}
+.sub_title{
+    padding: 16px 3px;
+    font-size: 23px;
+    font-family: 'Courgette', cursive;
+}
+.para{
+    font-family: 'Courgette', cursive;
+    padding: 10px 4px;
+    /* animation: zoomIn 2s ease; */
+}
+.box{
+    width: 609px;
+    margin: 64px 465px;
+    border-radius: 8px;
+    height: 381px;
+    border: 5px solid rgb(241, 241, 234);
+    box-shadow: 2px 2px 12px white;
+    background-image: url(https://cdn.i.haymarketmedia.asia/?n=campaign-india%2fcontent%2f1+Bandra+Worli-Purple+Week.jpg&h=400&w=600&q=100&v=20170226&c=1);
+    animation: slider 23s infinite ease-in;
+}
+/* .box::after{
+    /* background-image: url( ) */
+    
+    @keyframes slider{ 
+        0%{
+            background-image: url(https://cdn.i.haymarketmedia.asia/?n=campaign-india%2fcontent%2f1+Bandra+Worli-Purple+Week.jpg&h=400&w=600&q=100&v=20170226&c=1);
+            background-size: cover;
+        }
+        30%{
+            background-image:  url('taj\ imag.jpg');
+            background-size: cover;
+            
+            
+        }
+        40%{
+            background-size: cover;
+            background-image: url('marine.jpg');
+            
+            
+            
+        }
+        60%{
+            background-image: url(https://www.india.com/wp-content/uploads/2018/08/Facts1-Shree_Siddhivinayak_Temple_Mumbai.jpg);
+            background-size: cover;
+            
+            
+        }
+        80%{
+            background-image: url(https://www.the360mag.com/wp-content/uploads/2018/06/20180616_115154.jpg);
+            background-size: 599px 378px;
+            
+        }
+    }
+    /* .box::after{
+        content: ' ';
+        animation: chan;
+    } */
+    .first:after{
+        content: 'Bandra-worli Sea Link ';
+        animation: changetext 24s infinite ease;
+        color: darkblue;
+        font-size: 28px;
+        font-family: 'Courgette', cursive;
+        
+    }
+    
+    @keyframes changetext {
+        0%{
+            content: 'Bandra-worli Sea Link';
+        }
+        25%{
+            
+            content: 'Taj Hotel And The Gateway OF India';
+        }
+        40%{
+            content: 'Marine Drive';
+            
+        }
+        60%{
+            content: 'Siddhivinayak Temple';
+        }
+        80%{
+            content: 'Haji Ali';
+        }
+    }
+    
+    
+    
+    
+    
+    .title{
+        font-family: 'Courgette', cursive;
+        font-size: 43px;
+        color: #5e1e5e;
+        padding: 57px 10px;
+        
+        
+        
+    }
+    .serve{
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190220/ourmid/pngtree-simple-summer-tourism-travel-image_9073.jpg);
+        background-color: aquamarine;
+        background-repeat: round;
+        background-size: cover;
+        height: 438px;
+        padding: 0px 20px;
+    }
+    .title_1{
+        /* text-align: center; */ 
+        font-family: 'Merienda One', cursive;
+        padding: 34px 312px;
+        color: yellow;
+        font-size: 35px;
+    }
+    .class1{
+            /* text-align: center; */
+   
+    font-size: 26px;
+    margin: -25px 108px;
+    color: aliceblue;
+    }
+    .class2{
+          /* text-align: center; */
+    margin: 24px 302px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e8bfbf;
+        
+    }
+    .class3{
+
+        color: #c1f9fe;
+        font-size: 31px;
+        margin: -20px 0px;
+        padding: 0px 319px;
+        /* text-align: center;/*/
+        
+    }
+    .class4{
+        color: #ffe2a2;
+        font-size: 28px;
+        margin: 16px 257px;
+        /* text-align: center; */
+        font-family: 'Charm', cursive;
+        
+    }
+    .class5{
+        color: #c1f8c6;
+        font-size: 41px;
+        /* padding: 0px 2px; */
+        margin: -19px 179px;
+        /* text-align: center; */
+        font-family: 'Charm', cursive;
+
+    }
+    .btnone{
+        font-size: 32px;
+        text-align: center;
+        align-items: center;
+        padding: 4px 18px;
+        margin: 28px 304px;
+        border-radius: 70px;
+        font-family: 'Bree Serif', serif;
+    }

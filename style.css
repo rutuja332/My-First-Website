@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 4px 25px;
+    margin: 4px 17px;
+    color: white;
+    
+}
+.navbar ul {
+    display: flex;
+    /* background-color: rgb(167, 241, 165); */
+    padding: 15px 7px;
+    border-radius: 24px;
+}
+.navbar ul li {
+    list-style: none;
+}
+/* body background{
+    width: 100%;
+    height: 100%;
+   
+} */
+.mainclass{
+    background-image:linear-gradient(rgb(0,0,0,0.3) , rgb(0,0,0,0.1)), url(mumbai.webp);
+    background-position: center;
+    width: 100%;
+    height: 796px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: no-repeat; */
+    /* height: 300px; */
+    /* padding: 0px 0px; */
+    margin: 0px 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0,0,0,0.3);
+    border-radius: 32px;
+}
+nav .logo{
+    width: 12%;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    margin: 0px 19px;
+}
+.container{
+     /* text-align: center; */
+     color: white;
+     /* align-items: center; */
+     font-size: 38px;
+     word-spacing: 13px;
+     padding: 218px 46px;
+     margin: 20px;
+}
+div #visit{
+    font-size: 28px;
+}
+.change_content:after{
+    content : '';
+    animation : changetext 10s infinite linear;
+    color: aquamarine;
+
+}
+@keyframes changetext{
+    0%{content : "Shri Siddhivinayak Temple";}
+    20%{content: "Gateway of India";}
+    35%{content: "Juhu Beach";}
+    60%{content: "Marine Drive";}
+    80%{content: "Elephanta Caves";}
+    100%{content: "Haji Ali Dargah";}
+}
+.some_content{
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 18.5px;
+    width: 853px;
+    padding: 15px 0px;
+}
+.container a{
+        /* display: flex; */
+        flex-direction: row;
+        background-color: rgb(241, 219, 219);
+        color: maroon;
+        text-decoration: none;
+        width: 142px;
+        font-size: 19px;
+        text-align: center;
+        align-items: center;
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 52px;
+        padding: 2px 9px;
+        margin: 5px 8px;
+        /* border: 2px solid wheat; */
+        box-shadow: 3px;
+        box-shadow: 3px;
+}
+/* .btnt{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 219, 219);
+    color: maroon;
+    text-decoration: none;
+    width: 276px;
+    text-align: center;
+    align-items: center;
+    border-radius: 52px;
+    padding: 2px 18px;
+    margin: 21px 1px;
+    /* border: 2px solid wheat; */
+    /* box-shadow: 3px;
+} */ 
+.container a:hover{
+    background-color: rgb(230, 230, 134);
+}
